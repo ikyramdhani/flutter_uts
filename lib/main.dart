@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Tugas UTS'),
+          title: Text('Tugas UTS rizkyawanramdhani'),
           actions: [
             IconButton(
               icon: Icon(Icons.logout),
@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
                 children: List.generate(9, (index) {
                   return Container(
                     margin: EdgeInsets.all(8.0),
-                    color: Color.fromARGB(255, 228, 75, 152),
+                    color: Color.fromARGB(255, 47, 159, 233),
                   );
                 }),
               ),
@@ -39,16 +39,16 @@ class MyApp extends StatelessWidget {
               leading: CircleAvatar(
                 backgroundColor: Colors.blue,
               ),
-              title: Text('Judul'),             
-              subtitle: Text('asik'),                     
+              title: Text('Iky'),             
+              subtitle: Text('ramdhani'),                     
               trailing: Icon(Icons.remove_circle_rounded),
             ),
             ListTile(
               leading: CircleAvatar(
-                backgroundColor: Color.fromARGB(255, 211, 66, 66),
+                backgroundColor: Color.fromARGB(255, 245, 239, 239),
               ),
-              title: Text('Judul'),
-              subtitle: Text('asik'),
+              title: Text('Iky'),
+              subtitle: Text('Ramdhani'),
               trailing: Icon(Icons.remove_circle_rounded),
             ),
           ],
